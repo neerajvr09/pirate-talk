@@ -2,11 +2,66 @@
 
 *{
     margin: 0;
-    padding: 0;
-    text-decoration: none;
     box-sizing: border-box;
 }
 
 body{
     font-family: 'Kalam', cursive;
 }
+
+nav{
+    background-color: #F2C94C;
+    text-align: center;
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: 650px;
+}
+textarea{
+    display: block;
+    width: 600px;
+    height: 20vh;
+    align-items: center;
+    margin-top: 2rem;
+    box-sizing: border-box;
+}
+button{
+    background-color: #F2C94C;
+    margin: 1rem 0;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: inherit;    
+}
+.outputText{
+    border: 1px solid black;
+    min-height: 10vh;
+    width: 600px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #F2C94C;
+    text-align: center;
+}
+footer div{
+    font-size: x-large;
+}
+footer p{
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
