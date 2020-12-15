@@ -60,7 +60,14 @@ footer p{
     margin: auto;
 }
 
-
+@media (max-width:668px){
+    textarea{
+        width: 350px;
+    }
+    .outputText{
+        width: 350px;
+    }
+}
 
 
 
