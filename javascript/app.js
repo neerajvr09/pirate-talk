@@ -6,13 +6,13 @@ var translateBtn = document.querySelector(".translate-btn");
 var txtOutput = document.querySelector(".outputText");
 
 //server url
-var serverUrl ="https://api.funtranslations.com/translate/pirate.json"
+var serverUrl ="https://api.funtranslations.com/translate/minion.json"
 
 function getTranslationUrl(text){
     return serverUrl + "?" +"text=" + text
 }
 function errorHandler(error){
-    alert("something wrong with sserver, try again after sometimes")
+    alert("something wrong with server, try again after sometimes")
 }
 function clickHandler(){
     var inputTxt = txtInput.value // taking input
