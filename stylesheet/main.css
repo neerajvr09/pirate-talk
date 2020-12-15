@@ -62,10 +62,10 @@ footer p{
 
 @media (max-width:668px){
     textarea{
-        width: 350px;
+        width: 300px;
     }
     .outputText{
-        width: 350px;
+        width: 300px;
     }
 }
 
